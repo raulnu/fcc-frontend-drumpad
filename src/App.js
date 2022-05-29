@@ -86,9 +86,9 @@ function App() {
         <p>Developed by Raúl Navarro Uribe</p>
         <p>
           Code available at:{" "}
-          <span className="text-light">
+          <a className="text-light">
             https://github.com/r-navarrouribe/fcc-frontend-drumpad
-          </span>
+          </a>
         </p>
       </footer>
     </div>
