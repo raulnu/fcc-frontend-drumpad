@@ -80,10 +80,16 @@ function App() {
       </header>
       <main className="main-content row justify-content-center mb-5">
         <Drumpads drumpads={drumpads} setDisplayText={setDisplayText} />
-        <Display drumpads={drumpads} displayText={displayText} />
+        <Display displayText={displayText} />
       </main>
       <footer className="footer row text-info text-center">
         <p>Developed by Raúl Navarro Uribe</p>
+        <p>
+          Code available at:{" "}
+          <span className="text-light">
+            https://github.com/r-navarrouribe/fcc-frontend-drumpad
+          </span>
+        </p>
       </footer>
     </div>
   );
