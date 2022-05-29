@@ -85,9 +85,12 @@ function App() {
       <footer className="footer row text-info text-center">
         <p>Developed by Raúl Navarro Uribe</p>
         <p>
-          Code available at:{" "}
-          <a className="text-light">
-            https://github.com/r-navarrouribe/fcc-frontend-drumpad
+          Code available at{" "}
+          <a
+            href="https://github.com/r-navarrouribe/fcc-frontend-drumpad"
+            className="text-light"
+          >
+            github
           </a>
         </p>
       </footer>
